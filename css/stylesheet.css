@@ -1,5 +1,14 @@
-html {
-  font-size: 1em;
+/*--------------------------
+Font and Color setup
+--------------------------*/
+html {font-size: 1em;}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #89B2A0;
+  font-family: 'Oswald', sans-serif;
+  color: #101520;;
 }
 
 h1 {font-size: 2.369em;}
@@ -8,13 +17,17 @@ h2 {font-size: 1.777em;}
 
 h4 {font-size: 1.333em;}
 
-body {
-  margin: 0;
-  padding: 0;
-  background: #89B2A0;
-  font-family: 'Oswald', sans-serif;
+.main_header {
+  text-align: center;
 }
 
+/*--------------------------
+Navigation
+--------------------------*/
+.nav {
+    background-color: #265C57;
+  }
+  
 .nav ul {
     overflow: auto;
     width: 600px;
@@ -34,10 +47,6 @@ body {
 .nav li {
     float: right;
   }
-
-.nav {
-    background-color: #265C57;
-  }
  
 .nav a {
   text-decoration: none;
@@ -56,6 +65,9 @@ body {
   cursor: default;
 }
 
+/*--------------------------
+Layout
+--------------------------*/
 .content {
     width:960px;
     margin: 20px auto;
@@ -68,11 +80,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 15px;
-}
-.main_header {
-  font-family: 'Oswald', sans-serif;
-  color: #101520;
-  text-align: center;
 }
 
 .icons ul {
