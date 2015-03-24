@@ -1,0 +1,85 @@
+html {
+  font-size: 1em;
+}
+
+h1 {font-size: 2.369em;}
+
+h2 {font-size: 1.777em;}
+
+h4 {font-size: 1.333em;}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #89B2A0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+  }
+
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 20px;
+  height: 20px;
+  padding: 2.5%;
+}
+
+.nav li {
+    float: right;
+  }
+
+.nav {
+    background-color: #265C57;
+  }
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+.content {
+    width:960px;
+    margin: 20px auto;
+}
+
+#hero_image {
+  border-radius: 50%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+.main_header {
+  font-family: 'Oswald', sans-serif;
+  color: #101520;
+  text-align: center;
+}
+
+.icons ul {
+  list-style: none;
+}
+
+.icons li {
+  display: block;
+  text-align: center;
+}
