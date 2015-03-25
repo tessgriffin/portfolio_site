@@ -6,7 +6,7 @@ html {font-size: 1em;}
 body {
   margin: 0;
   padding: 0;
-  background: #89B2A0;
+  background: #4D8675;
   font-family: 'Oswald', sans-serif;
   color: #101520;;
 }
@@ -75,6 +75,8 @@ Layout
 .content {
     width:960px;
     margin: 100px auto 100px;
+    background-color: #89B2A0;
+    padding: 15px;
 }
 
 p {
@@ -108,6 +110,6 @@ footer img {
 }
 
 .icons li {
-  display: block;
-  text-align: center;
+  display: inline-block;
+  text-align: left;
 }
