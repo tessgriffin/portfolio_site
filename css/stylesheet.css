@@ -8,7 +8,8 @@ body {
   padding: 0;
   background: #4D8675;
   font-family: 'Oswald', sans-serif;
-  color: #101520;;
+  color: #101520;
+  width: 100%;
 }
 
 h1 {font-size: 2.369em;}
@@ -73,7 +74,7 @@ Navigation
 Layout
 --------------------------*/
 .content {
-    width:960px;
+    width: 60%;
     margin: 100px auto 100px;
     background-color: #89B2A0;
     padding: 15px;
@@ -98,7 +99,7 @@ footer img {
 
 #hero_image {
   border-radius: 50%;
-  width: 50%;
+  width: 70%;
   display: block;
   margin-left: auto;
   margin-right: auto;
